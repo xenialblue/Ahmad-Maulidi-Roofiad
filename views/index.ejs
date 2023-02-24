@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test Binding</title>
+</head>
+
+<body>
+    <h1>Daftar Pengguna:</h1>
+    <ul>
+        <% pengguna.forEach((p)=> { %>
+            <li>
+                <%= p.name %>, <%= p.email %>
+            </li>
+            <% }); %>
+    </ul>
+</body>
+
+</html>
