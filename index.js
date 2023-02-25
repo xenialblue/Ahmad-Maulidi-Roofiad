@@ -34,9 +34,6 @@ app.post('/submit-form', (req, res) => {
 
 	// // do something with the form data
 	// console.log(`Name: ${name}, Email: ${email}`);
-
-	// // render a success message
-	// res.send('Form submitted successfully!');
 });
 
 app.listen(port, () => {
