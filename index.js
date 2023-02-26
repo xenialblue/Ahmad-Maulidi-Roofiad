@@ -29,8 +29,8 @@ app.get('/', async (req, res) => {
 
 app.post('/submit-form', (req, res) => {
     console.log(req.body)
-	// const name = req.body.namapeserta;
-	// const email = req.body.ttl;
+	  // const name = req.body.namapeserta;
+	  // const email = req.body.ttl;
 
 	// // do something with the form data
 	// console.log(`Name: ${name}, Email: ${email}`);
